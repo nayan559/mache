@@ -1,0 +1,699 @@
+/*
+	============= Author ============
+	Name: Nayan Das
+	Mail: nayandas559@gmail.com
+	=================================
+*/
+
+/*
+	============= INDEX =============
+	
+	00: Global CSS
+	01: Hero Section CSS
+	02: About Us Section CSS
+	03: Our Services Section CSS
+	04: Testimonial Section CSS
+	06: Options Section CSS
+	07: Join Us Section CSS
+	08: Our Lust Update Section CSS
+	09: Template Section CSS
+
+	11: Mache Free PSD Template Section CSS
+	12: Please share some love Section CSS
+	13: Footer Section CSS
+
+	=================================
+*/	
+
+/*	======== 01: Global CSS ========= */	
+body{
+	font-family: 'Lato', sans-serif;
+}
+section{}
+.image-center{
+	display: block;
+	margin: 0 auto;
+}
+.no-padding{
+	padding: 0;
+}
+.bolder{
+	font-weight: 900;
+}
+h1{
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 1px;
+	color: #5a5a5a;
+}
+h2{}
+h3{}
+h4{}
+h5{
+	font-weight: 300;
+	font-size: 22px;
+	color: #fff;
+	line-height: 33px;
+}
+h6{
+	color: #ed145b;
+	font-weight: 600;
+}
+p{
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 28px;
+	color: #5a5a5a;
+}
+a{}
+.border{
+	border: 1px solid #ed145b !important;
+	width: 20%;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.btn{
+	background-color: #ed145b;
+	padding: 12px 38px;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	box-shadow: none;
+	transition: all 0.4s cubic-bezier(0.4, 0, 1, 1);
+}
+.btn-hover:hover{
+	color: #ffffff;
+    border: 1px solid #ed145b;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+
+/*	======== 01: Hero Section CSS ========= */
+.navbar {
+    padding: 1.5rem 1rem;
+    transition: 0.4s;
+}
+.nav-item{}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ed145b;
+}
+.hero {
+    background: url(../img/bg/img-02-01.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: scroll;
+}
+.hero-detail{
+	padding-top: 320px;
+	padding-bottom: 220px;
+}
+.hero-detail h1{
+	color: #fff;
+	text-align: center;
+	font-size: 46px;
+	text-transform: uppercase;
+	font-style: normal;
+}
+.hero-detail h5{
+	color: #fff;
+	text-align: center;
+	margin: 7px;
+}
+.hero-detail .border{
+	
+}
+.btn-hero {
+	display: block;
+	margin: 0 auto;
+	margin-top: 36px;
+	transition: all 0.4s cubic-bezier(0.4, 0, 1, 1);
+}
+.btn-hero:hover{
+    color: #ffffff;
+    border: 1px solid #fff;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.scroll-nav{
+	background-color: #030303db;
+	padding: 0.8rem 0rem;
+	border-bottom: 2px solid #ed145b;
+}
+.navbar-toggler-icon{
+	color: #fff;
+}
+
+
+
+/*	======== 02: About Us Section CSS ======== */
+.about-us{
+	background-color: #f4f4f4;
+	padding: 100px 0;
+}
+.about-us-left{}
+.about-us-left h1{}
+.about-us-left .border{margin: inherit;margin-top: 35px;margin-bottom: 35px;width: 40%;}
+.about-us-left p{}
+.about-us-left h6{
+	font-weight: 600;
+	color: #ed145b;
+}
+.circle{
+	display: inline-flex;
+	margin-top: 38px;
+	margin-bottom: 38px;
+}
+.circle h6{
+	padding-top: 4px;
+	padding-right: 16px;
+	text-transform: uppercase;
+}
+.fa-play{
+	background-color: transparent;
+	border-radius: 100%;
+	border: 1px solid #ed145b;
+	padding: 10px;
+	color: #ed145b;
+	font-size: 10px;
+}
+.about-us-img{}
+.about-us-img img{padding-top: 0;}
+.about-us-content{}
+
+
+
+/*	====== 03: Our Services Section CSS ====== */
+.our-services{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.our-services-detail{
+
+}
+.our-services-detail h1{
+	text-align: center;
+}
+.our-services-detail .border{
+}
+.our-services-detail p{
+	width: 59%;
+	text-align: center;
+	margin: 0 auto;
+}
+.features{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+.features h6{
+	padding-top: 30px;
+}
+
+
+
+/*	====== 04: Testimonial Section CSS ====== */
+.testimonial{
+	background-image: url(../img/bg/img-08.png);
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.next-page{
+	color: #8d8d8d;
+	font-size: 30px;
+	padding-top: 117px;
+}
+.testimonial-detail{
+    width: 75%;
+    margin: 0 auto;
+}
+.testimonial-detail img{
+	text-align: center;
+	margin: 0 auto;
+	width: 10% !important;
+}
+.testimonial h5{
+	text-align: center;
+	margin: 0 auto;
+	padding: 38px 0px;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    color: #fff;
+    font-size: 70px;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    top: 90px;
+    left: 0;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: #86979100;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/*	====== 05: Prices Section Section CSS ====== */
+.price{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #f4f4f4;
+}
+.price-heading{
+	text-align: center;
+	margin: 0 auto;
+}
+.price-heading h1{}
+.price-heading hr{
+	width: 20%;
+}
+.price-heading p{
+	width: 63%;
+	margin: 0 auto;
+}
+.price-detail{}
+.card:hover .card-head{
+	background-color: #ed145b;
+}
+.card:hover .btn-two-card{
+	color: #ffffff;
+    border: 1px solid #fff;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.card{
+	border: none;
+	margin-top: 38px;
+	border-radius: 0px;
+	cursor: pointer;
+}
+.card-head{
+	background-color: #5a5a5a;
+	padding-top: 26px;
+	padding-bottom: 50px;
+	transition: all 0.4s cubic-bezier(0.4, 0, 1, 1);
+}
+.card-head h1{
+	color: #fff;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	margin: 0px;
+}
+.card-head span{
+	color: #fff;
+	font-size: 17px;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+}
+.card-head p{
+	color: #fff;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 600;
+}
+.price-card-body{
+	background-color: #fff !important;
+}
+.btn-one-card{
+	background-color: #f4f4f4;
+	color: #5a5a5a;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	margin-top: -28px;
+}
+.price-card-body p{
+	text-align: center;
+}
+.btn-two-card{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 42px;
+	transition: all 0.4s cubic-bezier(0.4, 0, 1, 1);
+}
+
+
+/** ==== 06: Options Section CSS ===== **/
+.options{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.option-padding {
+    padding-bottom: 35px;
+}
+.resolution{}
+.resolution img{}
+.resolution .border{}
+.resolution p{
+	width: 94%;
+}
+.price-next-item-two{
+	padding-top: 38px;
+}
+.price-next-item-two p{
+	width: 94%;
+}
+
+
+
+/**  ==== 07: Join Us Section CSS ===== **/
+.join-us{
+	background-color: #ed145b;
+	padding: 100px 0;
+}
+.join-us-detail{}
+.join-us-detail h1{
+	color: #fff;
+	text-align: center;
+	font-size: 38px;
+	text-transform: uppercase;
+	font-style: normal;
+	margin: 0px;
+}
+.join-us-part{}
+.join-us-btn{
+	background-color: #fff;
+	color: #ed145b;
+	display: block;
+	margin: 0 auto;
+}
+.join-us-btn:hover{
+    color: #ed145b;
+}
+
+
+/** ==== 08: Our Lust Update Section CSS ==== **/
+.our-lust-update{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.our-lust-update-heading{
+	text-align: center;
+	margin: 0 auto;
+}
+.our-lust-update-heading h1{}
+.our-lust-update-heading .border{
+	
+}
+.our-lust-update-heading p{
+	width: 63%;
+	margin: 0 auto;
+}
+.update-card{
+	background-color: #f4f4f4;
+	border: none;
+	margin-top: 38px;
+	border-radius: 0px;
+}
+.card-img{
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.card-img img{
+	width: 100%;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	transition: 0.4s;
+}
+.img-hover{
+    position: absolute;
+    width: 110%;
+    height: 137%;
+    bottom: -134%;
+    left: -13px;
+    background-color: #ed145b;
+    transition: all 0.4s cubic-bezier(0.4, 0, 1, 1);
+    transform: rotate(2deg);
+}
+.img-hover i{
+	padding-top: 175px;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	transition: all 0.4s cubic-bezier(0.4, 0, 1, 1);
+}
+.card-img:hover .img-hover{
+	bottom: -5%;
+	opacity: 0.8;
+}
+.card-body {
+    background-color: #f4f4f4 !important;
+    padding: 0px;
+}
+.card-title {
+    margin-bottom: .75rem;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 15px;
+    width: 89%;
+    padding-bottom: 25px;
+}
+
+.show-more{
+	display: block;
+	margin: 0 auto;
+	padding-top: 38px;
+	text-align: center;
+}
+.fa-angle-down{
+	color: #ed145b;
+	font-size: 30px;
+	cursor: pointer;
+}
+.show-less{
+	display: block;
+	margin: 0 auto;
+	padding-top: 38px;
+	text-align: center;
+}
+.fa-angle-up{
+	color: #ed145b;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+/** ==== 09: Template Section CSS ==== **/
+.free-psd-template{
+	background-image: url(../img/bg/img-21.png);
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.free-psd-template h1{
+	color: #fff;
+	text-align: center;
+}
+.free-psd-template hr{
+	width: 20%;
+}
+.free-psd-template p{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.btn-free-psd-template{
+	display: block;
+	margin: 0 auto;
+	margin-top: 36px;
+}
+.btn-free-psd-template:hover{
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	transform: scale(1.1);
+	border-radius: 10px;
+}
+
+/** === 12: Please share some love Section CSS === **/
+.please-share-some-love{
+	background-color: #f4f4f4;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.image-browser{padding-top: 0;}
+.please-share-some-love-right{
+
+}
+.please-share-some-love-right h1{
+
+}
+.please-share-some-love-right .border{
+margin: inherit;
+margin-top: 35px;
+margin-bottom: 35px;
+}
+.please-share-some-love-right p{
+	width: 85%;
+}
+.btn-please-share-some-love{
+    margin-top: 40px;
+}
+.btn-please-share-some-love:hover{
+	color: #ffffff;
+	border: 1px solid #ed145b;
+	transform: scale(1.1);
+	border-radius: 10px;
+}
+
+/** === 13: Footer Section CSS === **/
+.footer{
+	background-color: #2b2b2b;
+	padding-top: 38px;
+	padding-bottom: 38px;
+}
+.footer-left{
+	color: #fff;
+	margin: 0px;
+	font-size: 14px;
+}
+.footer-right{
+	color: #fff;
+	margin: 0px;
+	text-align: right;
+	font-size: 14px;
+}
+
+
+ /*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	.hero-detail {
+    padding-top: 315px;
+    padding-bottom: 220px;
+}
+.about-us-img img {
+	padding-top: 122px;
+	padding-bottom: 70px;
+}
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	.hero-detail {
+    padding-top: 320px;
+    padding-bottom: 220px;
+}
+.about-us-img img {
+    padding-top: 35px;
+    padding-bottom: 0;
+}
+	.image-browser {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	.hero-detail {
+    padding-top: 262px;
+    padding-bottom: 200px;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+.nav-item {
+    text-align: end;
+}
+.scroll-nav {
+    background-color: #030303db;
+    padding: 1.5rem 1rem;
+    border-bottom: 2px solid #ed145b;
+}
+.our-services-detail p {
+	width: 100%;
+}
+.price-heading p {
+    width: 100%;
+}
+.about-us-left h1 {
+    text-align: center;
+}
+.about-us-left .border {
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.testimonial-detail {
+    width: 100%;
+    margin: 0 auto;
+}
+.owl-theme .owl-nav {
+    display: none;
+}
+.resolution img {
+    padding-bottom: 25px;
+}
+.resolution {
+    text-align: center;
+}
+.join-us-detail {
+    padding-bottom: 35px;
+}
+.our-lust-update-heading p {
+    width: 100%;
+}
+.free-psd-template p {
+    width: 100%;
+}
+.please-share-some-love-right {
+    text-align: center;
+}
+.please-share-some-love-right p {
+    width: 100%;
+}
+.please-share-some-love-right .border {
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.btn-please-share-some-love {
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+}
+.footer-left {
+    text-align: center;
+}
+.footer-right {
+    text-align: center;
+}
+.about-us-left p {
+    text-align: center;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+}
